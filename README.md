@@ -24,3 +24,5 @@ var fsm = new FSM({
         'before':f_xxx 通用的执行事件前的回调方法,类似还有after.如果试图为单个状态指定该回调,同上
     }
 });
+
+fsm.triggerEvent(event)//触发事件
